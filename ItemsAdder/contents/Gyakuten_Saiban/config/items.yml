@@ -1,0 +1,57 @@
+info:
+  namespace: gyakuten_saiban
+items:
+  attorney_badge:
+    enabled: true
+    display_name: 律师微章
+    lore:
+    - '在不同状态下使用可以触发不同的音效'
+    events:
+      interact:
+        right:
+          execute_commands:
+            cmd1:
+              command: 'iaplaytotemanimation gyakuten_saiban:objectiontitle {player} silent'
+              as_console: true
+              delay: 0
+          play_sound:
+            name: gyakuten_saiban:objection
+            volume: 1
+            pitch: 2
+        right_shift:
+          execute_commands:
+            cmd1:
+              command: 'iaplaytotemanimation gyakuten_saiban:objectiontitle {player} silent'
+              as_console: true
+              delay: 0
+          play_sound:
+            name: gyakuten_saiban:objection
+            volume: 1
+            pitch: 1
+        left_shift:
+          execute_commands:
+            cmd1:
+              command: 'iaplaytotemanimation gyakuten_saiban:objectiontitle {player} silent'
+              as_console: true
+              delay: 0
+          play_sound:
+            name: gyakuten_saiban:objection1
+            volume: 1
+            pitch: 1
+        left:
+          execute_commands:
+            cmd1:
+              command: 'iaplaytotemanimation gyakuten_saiban:objectiontitle {player} silent'
+              as_console: true
+              delay: 0
+          play_sound:
+            name: gyakuten_saiban:objection1
+            volume: 1
+            pitch: 2
+    resource:
+      material: PAPER
+      generate: true
+      custonmodeldata: 9000000
+      textures:
+        - items/attorney_badge
+    permission: gyakuten_saiban_attorney_badge

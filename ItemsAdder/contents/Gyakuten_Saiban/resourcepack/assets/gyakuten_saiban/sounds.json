@@ -1,0 +1,13 @@
+{
+	"objection":{
+		"sounds":[
+			"gyakuten_saiban:lawyer_badge/objection"
+		]
+	},
+	"objection1":{
+		"sounds":[
+			"gyakuten_saiban:lawyer_badge/objection1"
+		]
+	}
+
+}
