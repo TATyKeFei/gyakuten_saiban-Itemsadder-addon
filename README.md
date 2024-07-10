@@ -1,3 +1,5 @@
+# 没弄完，还在编写完善中
+
 # 简介
 
 这是一个 MC 插件 [Itemsadder](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/) 的扩展包，包含一些有关逆转裁判用来发病的东西
