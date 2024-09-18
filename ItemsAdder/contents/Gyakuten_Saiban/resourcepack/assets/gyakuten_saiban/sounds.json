@@ -2,12 +2,14 @@
 	"objection":{
 		"sounds":[
 			"gyakuten_saiban:lawyer_badge/objection"
-		]
+		],
+   		"subtitle": "异议!：日语"
 	},
 	"objection1":{
 		"sounds":[
 			"gyakuten_saiban:lawyer_badge/objection1"
-		]
+		],
+   		"subtitle": "异议!：英语"
 	}
 
 }
