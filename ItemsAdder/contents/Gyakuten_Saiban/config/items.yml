@@ -59,7 +59,6 @@ items:
     display_name: 成步堂龙一的手
     lore:
     - '右键其他玩家可对其异议'
-    - '同时对方也会收到异议的特效'
     events:
       interact:
         entity:
@@ -94,6 +93,7 @@ items:
         - particles/yiyi
     permission: gyakuten_saiban_yiyi
 
+#分类
 categories:
   gyakuten_saiban:
     enabled: true
