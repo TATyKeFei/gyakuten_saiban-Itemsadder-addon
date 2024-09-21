@@ -6,7 +6,7 @@
 
 ![](demo.jpg)
 
-<iframe src='//player.bilibili.com/player.html?bvid=BV15HtyeyEFz&cid=25949768877&p=1&share_source=copy_web' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'></iframe>
+[![](https://bb-embed.zjffun.com/embed?v=BV15HtyeyEFz)](https://player.bilibili.com/player.html?aid=683633468&bvid=BV15HtyeyEFz&cid=25949768877&page=1)
 
 # 介绍
 
