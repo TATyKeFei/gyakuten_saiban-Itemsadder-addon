@@ -1,18 +1,35 @@
 {
     "format_version": 2,
     "header": {
-        "description": "异议异议异议异议异议",
-        "name": "§b逆转裁判基岩资源包",
-        "uuid": "eb6a6104-e5c7-4973-847a-233be49dacf9",
+      "name": "§b逆转裁判基岩资源包",
+      "description": "异议异议异议异议异议异议异议异议异议",
+      "uuid": "bc51e36e-0e85-e7fa-cb51-50dcf84bbdcb",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "min_engine_version": [
+        1,
+        17,
+        0
+      ]
+    },
+    "modules": [
+      {
+        "type": "resources",
+        "uuid": "6b14ea58-8640-3915-ac69-1e97539be1fa",
         "version": [
-            1,
-            0,
-            0
-        ],
-        "min_engine_version": [
-            1,
-            18,
-            3
+          1,
+          0,
+          0
         ]
+      }
+    ],
+    "metadata": {
+      "authors": [
+        "TATyKeFei"
+      ],
+      "url": "https://github.com/TATyKeFei"
     }
-}
+  }

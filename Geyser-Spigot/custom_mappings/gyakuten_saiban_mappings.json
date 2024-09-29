@@ -12,7 +12,7 @@
           "name": "phoenix_wright_hand",
           "allow_offhand": true,
           "icon": "phoenix_wright_hand",
-          "custom_model_data": 9000000
+          "custom_model_data": 9000001
         }
       ],
       "minecraft:TOTEM_OF_UNDYING": [

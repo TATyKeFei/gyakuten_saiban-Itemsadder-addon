@@ -3,13 +3,13 @@
     "texture_name": "atlas.items",
     "texture_data": {
         "attorney_badge": {
-            "textures": "textures/items/attorney_badge"
+            "textures": "textures/items/attorney_badge.png"
         },
         "phoenix_wright_hand": {
-            "textures": "textures/items/phoenix_wright_hand"
+            "textures": "textures/items/phoenix_wright_hand.png"
         },
         "yiyi": {
-            "textures": "textures/particles/attorney_badge"
+            "textures": "textures/particles/attorney_badge.png"
         }
     }
 }
