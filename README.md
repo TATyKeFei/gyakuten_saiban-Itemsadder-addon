@@ -8,11 +8,19 @@
 
 [![](https://bb-embed.zjffun.com/embed?v=BV15HtyeyEFz)](https://player.bilibili.com/player.html?aid=683633468&bvid=BV15HtyeyEFz&cid=25949768877&page=1)
 
-# 介绍
+# 物品属性
 
-| 链接                          |  说明                     |
-| :---                          | :---                     |
-| [物品介绍](./items.md)        | 介绍了此包中的物品作用      |
+| 物品名               | 作用                                 | CMD值     | material         |
+| :---                | :---                                 | :---      | :---             |
+| 律师微章             | 左右键可触发异议                      | 9000000   | WHITE_DYE        |
+| 成不堂龙一的手        | 右键其他玩家对其造成精神攻击(包括自己) | 9000001   | WHITE_DYE        |
+| 异议 (效果)          | 用于图腾动画特效，无其他用处           | 9000002   | TOTEM_OF_UNDYING |
+
+# 未来要新增的物品
+
+| 物品                  | 作用                           |
+| :---                 | :---                           |
+| 御剑怜侍的手          | 触发御剑的异议音效               |
 
 # 声明
 
