@@ -1,0 +1,27 @@
+{
+    "format_version": "1",
+    "items": {
+      "minecraft:WHITE_DYE": [
+        {
+          "name": "attorney_badge",
+          "allow_offhand": true,
+          "icon": "attorney_badge",
+          "custom_model_data": 9000000
+        },
+        {
+          "name": "phoenix_wright_hand",
+          "allow_offhand": true,
+          "icon": "phoenix_wright_hand",
+          "custom_model_data": 9000000
+        }
+      ],
+      "minecraft:TOTEM_OF_UNDYING": [
+        {
+          "name": "yiyi",
+          "allow_offhand": true,
+          "icon": "yiyi",
+          "custom_model_data": 9000002
+        }
+      ]
+    }
+}

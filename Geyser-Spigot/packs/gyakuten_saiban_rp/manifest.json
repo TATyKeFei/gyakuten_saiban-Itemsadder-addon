@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "异议异议异议异议异议",
+        "name": "§b逆转裁判基岩资源包",
+        "uuid": "eb6a6104-e5c7-4973-847a-233be49dacf9",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            18,
+            3
+        ]
+    }
+}

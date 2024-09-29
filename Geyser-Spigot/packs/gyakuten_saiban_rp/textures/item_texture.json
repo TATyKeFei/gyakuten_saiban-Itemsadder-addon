@@ -1,0 +1,15 @@
+{
+    "resource_pack_name": "geyser_custom",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "attorney_badge": {
+            "textures": "textures/items/attorney_badge"
+        },
+        "phoenix_wright_hand": {
+            "textures": "textures/items/phoenix_wright_hand"
+        },
+        "yiyi": {
+            "textures": "textures/particles/attorney_badge"
+        }
+    }
+}
