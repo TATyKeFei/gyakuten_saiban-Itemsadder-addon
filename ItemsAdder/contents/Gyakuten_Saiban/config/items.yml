@@ -5,10 +5,9 @@ items:
   attorney_badge:
     enabled: true
     display_name: 律师微章
-    lore:
-    - '一斤鸭梨!'
     events:
       interact:
+        #异议二倍速(日语)
         right:
           execute_commands:
             cmd1:
@@ -18,6 +17,7 @@ items:
             name: gyakuten_saiban:objection
             volume: 1
             pitch: 2
+        #异议(日语)
         right_shift:
           execute_commands:
             cmd1:
@@ -27,19 +27,21 @@ items:
             name: gyakuten_saiban:objection
             volume: 1
             pitch: 1
+        #异议(英语)
         left_shift:
           execute_commands:
             cmd1:
-              command: 'iaplaytotemanimation gyakuten_saiban:yiyi {player} silent'
+              command: 'iaplaytotemanimation gyakuten_saiban:yiyi_en {player} silent'
               as_console: true
           play_sound:
             name: gyakuten_saiban:objection1
             volume: 1
             pitch: 1
+        #异议二倍速(英语)
         left:
           execute_commands:
             cmd1:
-              command: 'iaplaytotemanimation gyakuten_saiban:yiyi {player} silent'
+              command: 'iaplaytotemanimation gyakuten_saiban:yiyi_en {player} silent'
               as_console: true
           play_sound:
             name: gyakuten_saiban:objection1
@@ -58,7 +60,7 @@ items:
     enabled: true
     display_name: 成步堂龙一的手
     lore:
-    - '右键其他玩家可对其异议'
+    - '&f右键其他玩家可对其异议'
     events:
       interact:
         entity:
@@ -84,7 +86,9 @@ items:
   #异议效果
   yiyi:
     enabled: true
-    display_name: 异议(用于效果)
+    display_name: 异议(日语)
+    lore:
+    - ''
     resource:
       material: TOTEM_OF_UNDYING
       generate: true
@@ -92,6 +96,17 @@ items:
       textures:
         - particles/yiyi
     permission: gyakuten_saiban_yiyi
+  #异议效果(英语)
+  yiyi_en:
+    enabled: true
+    display_name: 异议(英语)
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      custonmodeldata: 9000003
+      textures:
+        - particles/yiyi_en
+    permission: gyakuten_saiban_yiyi_en
 
 #分类
 categories:
@@ -105,3 +120,4 @@ categories:
       - gyakuten_saiban:attorney_badge
       - gyakuten_saiban:phoenix_wright_hand
       - gyakuten_saiban:yiyi
+      - gyakuten_saiban:yiyi_en
