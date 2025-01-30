@@ -1,6 +1,6 @@
 # 简介
 
-这是一个 MC 插件 [Itemsadder](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/) 的扩展包，包含一些有关逆转裁判用来发病的东西
+这是一个 MC服务端插件 [Itemsadder](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/) 的扩展包，包含一些有关逆转裁判用来发病的东西
 
 你也可以用来学习，玩的开心~
 
@@ -14,17 +14,10 @@
 | :---                | :---                                 | :---      | :---             |
 | 律师微章             | 左右键可触发异议                      | 9000000   | WHITE_DYE        |
 | 成不堂龙一的手        | 右键其他玩家对其造成精神攻击(包括自己) | 9000001   | WHITE_DYE        |
-| 异议 (效果)          | 用于图腾动画特效，无其他用处           | 9000002   | TOTEM_OF_UNDYING |
+| 异议(日语)           | 用于图腾动画特效，无其他用处           | 9000002   | TOTEM_OF_UNDYING |
+| 异议(英语)           | 用于图腾动画特效，无其他用处           | 9000003   | TOTEM_OF_UNDYING |
 
-# 关于 Geyser 支持
-
-
-
-# 未来要新增的物品
-
-| 物品                  | 作用                           |
-| :---                 | :---                           |
-| 御剑怜侍的手          | 触发御剑的异议音效               |
+> 未来会添加其他角色的异议
 
 # 声明
 
